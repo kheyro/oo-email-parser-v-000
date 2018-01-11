@@ -6,7 +6,7 @@ class EmailParser
   end
 
   def parse
-    @emails.split(/[,\s]/).reject(&:empty)
+    @emails.split(/[,\s]/).reject(&:empty/.)
   end
 
 end
